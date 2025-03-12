@@ -1,6 +1,7 @@
 # IDE directories
 .vs/
 .vscode/
+.idea/
 
 # Generated build system files
 CMakeFiles/
