@@ -27,3 +27,6 @@
 	path = libs/SpvGenTwo
 	url = https://github.com/dfranx/SpvGenTwo
 	ignore = dirty
+[submodule "libs/cppdap"]
+	path = libs/cppdap
+	url = https://github.com/google/cppdap
