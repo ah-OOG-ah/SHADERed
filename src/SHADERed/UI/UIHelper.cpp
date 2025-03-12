@@ -23,8 +23,8 @@ namespace ed {
 		ShellExecuteA(0, 0, path.c_str(), 0, 0, SW_SHOW);
 #endif
 	}
-	bool UIHelper::Spinner(const char* label, float radius, int thickness, unsigned int color) 
-	{
+
+	bool UIHelper::Spinner(const char* label, float radius, int thickness, unsigned int color) {
 		ImGuiWindow* window = ImGui::GetCurrentWindow();
 		if (window->SkipItems)
 			return false;
@@ -59,7 +59,9 @@ namespace ed {
 		}
 
 		window->DrawList->PathStroke(color, false, thickness);
+		return true;
 	}
+
 	int UIHelper::MessageBox_YesNoCancel(void* window, const std::string& msg)
 	{
 		const SDL_MessageBoxButtonData buttons[] = {

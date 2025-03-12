@@ -18,6 +18,7 @@ SPIRV-Tools-linkConfig.cmake
 SPIRV-Tools-optConfig.cmake
 SPIRV-Tools-reduceConfig.cmake
 SPIRV-ToolsConfig.cmake
+cmake-build-debug
 
 # Generated files
 libs/**/*.tcl
